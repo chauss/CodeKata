@@ -3,6 +3,13 @@
 Write every day in the next 5 days an implementation for a binary search.
 Every implementation should be different from the one before.
 
+Implement the following function
+```
+// Index of returns the index of number in a list or -1 if number is not 
+// in the list. The list has to besorted ascending.
+func IndexOf(number int, list []int) int 
+```
+
 # Goals
 
 This Kata has three separate goals:
