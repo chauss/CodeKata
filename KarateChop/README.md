@@ -1,4 +1,4 @@
-# What to do (simple said)
+# What to do (simply said)
 
 Write every day in the next 5 days an implementation for a binary search.
 Every implementation should be different from the one before.
