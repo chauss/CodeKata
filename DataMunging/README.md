@@ -8,11 +8,11 @@ First column is the day, second column the max temp, third column the min temp.
 
 # Kata Questions
 
-To what extent did the design decisions you made when writing the original programs make it easier or harder to factor out common code?
+- To what extent did the design decisions you made when writing the original programs make it easier or harder to factor out common code?
 
-Was the way you wrote the second program influenced by writing the first?
+- Was the way you wrote the second program influenced by writing the first?
 
-Is factoring out as much common code as possible always a good thing? Did the readability of the programs suffer because of this requirement? How about the maintainability?
+- Is factoring out as much common code as possible always a good thing? Did the readability of the programs suffer because of this requirement? How about the maintainability?
 
 # Origin
 
