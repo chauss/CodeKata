@@ -1,4 +1,4 @@
-module KarateChop
+module CodeKata
 
 go 1.15
 

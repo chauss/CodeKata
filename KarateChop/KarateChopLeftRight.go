@@ -1,4 +1,4 @@
-package karatechop
+package main
 
 import "math"
 
