@@ -21,7 +21,7 @@ func TestMaxTempSpread(t *testing.T) {
 }
 
 func TestForAgainstMinTeam(t *testing.T) {
-	expected := "TeamName"
+	expected := "Arsenal"
 	result := GetForAgainstMinTeam()
 	if result != expected {
 		t.Errorf("Expected team %v but got team %v for the min ForAgainst difference", expected, result)
@@ -29,7 +29,7 @@ func TestForAgainstMinTeam(t *testing.T) {
 }
 
 func TestForAgainstMaxTeam(t *testing.T) {
-	expected := "TeamName"
+	expected := "Derby"
 	result := GetForAgainstMaxTeam()
 	if result != expected {
 		t.Errorf("Expected team %v but got team %v for the max ForAgainst difference", expected, result)
