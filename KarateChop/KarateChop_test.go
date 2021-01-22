@@ -10,6 +10,10 @@ func TestIndexOfRecursive(t *testing.T) {
 	karateChopTest(t, IndexOfRecursive)
 }
 
+func TestIndexOfRecursiveTwo(t *testing.T) {
+	karateChopTest(t, IndexOfRecursiveTwo)
+}
+
 func TestIndexOfLeftRight(t *testing.T) {
 	karateChopTest(t, IndexOfLeftRight)
 }
