@@ -81,3 +81,15 @@ func boardHasEmptyCell(board [9][9]uint8) bool {
 	}
 	return false
 }
+
+func boardsAreEqual(boardOne [9][9]uint8, boardTwo [9][9]uint8) bool {
+	for row := 0; row < len(boardOne); row++ {
+		for col := 0; col < len(boardOne[0]); col++ {
+			if boardOne[row][col] != boardTwo[row][col] {
+				return false
+			}
+		}
+	}
+
+	return true
+}
