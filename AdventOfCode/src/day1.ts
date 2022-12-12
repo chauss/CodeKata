@@ -11,10 +11,10 @@ const readInput = async (): Promise<string> => {
   });
 };
 
-const file: string = await readInput();
-const lines = file.split("\n");
+const inputFile = await readInput();
+const lines = inputFile.split("\n");
 
-const elvesCalories: number[] = [0];
+let elvesCalories: number[] = [0];
 
 for (const line of lines) {
   if (line.length == 0) {
@@ -24,8 +24,20 @@ for (const line of lines) {
   }
 }
 
+console.log("DAY1");
 console.log(
-  "The elve with the most calories is carrying " +
+  "PART1: The elve with the most calories is carrying " +
     Math.max(...elvesCalories) +
+    " calories"
+);
+
+elvesCalories = elvesCalories.sort((a, b) => b - a); // inverse sort
+
+const caloriesOfThreeMostCarrying =
+  elvesCalories[0] + elvesCalories[1] + elvesCalories[2];
+
+console.log(
+  "PART2: The three most carrying elves carry a total of " +
+    caloriesOfThreeMostCarrying +
     " calories"
 );
