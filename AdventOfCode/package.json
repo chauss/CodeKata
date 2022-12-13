@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "day1": "tsc && node dist/day1.js",
+    "day2": "tsc && node dist/day2.js",
     "compile": "rm -rf ./dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

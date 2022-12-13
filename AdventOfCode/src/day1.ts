@@ -1,17 +1,6 @@
-import fs from "fs";
+import { readInput } from "./GeneralLogic.js";
 
-const readInput = async (): Promise<string> => {
-  return new Promise((resolve, reject) => {
-    fs.readFile("./assets/input_day1.txt", "utf8", (err, data) => {
-      if (err) {
-        reject(err);
-      }
-      resolve(data);
-    });
-  });
-};
-
-const inputFile = await readInput();
+const inputFile = await readInput("input_day1.txt");
 const lines = inputFile.split("\n");
 
 let elvesCalories: number[] = [0];
