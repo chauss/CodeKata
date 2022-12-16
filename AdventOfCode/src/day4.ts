@@ -1,4 +1,3 @@
-import { linkSync } from "fs";
 import { readInput } from "./GeneralLogic.js";
 
 const inputFile = await readInput("input_day4.txt");
